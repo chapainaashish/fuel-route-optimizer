@@ -13,6 +13,14 @@ class LocationNotFound(APIException):
     default_code = "location_not_found"
 
 
+class GeocodingError(Exception):
+    pass
+
+
+class RoutingError(Exception):
+    pass
+
+
 class NoStationInRange(APIException):
     status_code = 422
     default_detail = "No fuel station within range along this route."
