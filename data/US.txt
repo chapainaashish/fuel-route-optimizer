@@ -1,0 +1,99 @@
+2130830	Middle Reef	Middle Reef		51.98414	176.01982	U	RFU	US		AK				0		-9999		2022-05-25
+2130833	McArthur Reef	McArthur Reef		52.06667	177.86667	U	RFU	US		AK	016			0		-9999	Asia/Kamchatka	2016-07-05
+2130890	Buldir Reef	Buldir Reef		52.15229	176.35675	U	RFU	US		AK				0		-9999		2022-05-25
+3577483	The Narrows	The Narrows	The Narrows	18.37502	-64.72517	H	CHN	US	VG	00				0		-9999	America/St_Thomas	2018-11-06
+3715657	Cape Lookout Shoals	Cape Lookout Shoals	Lookout Shoals	34.51206	-76.49326	H	SHOL	US		NC	031	91396		0		-9999	America/New_York	2022-05-24
+3831601	Nantucket Shoals	Nantucket Shoals		41.06917	-69.67983	U	SHSU	US		MA				0		-9999		2019-03-18
+3831610	Little Stellwagen Basin	Little Stellwagen Basin		42.11667	-70.28333	U	BSNU	US		00				0		-9999	America/New_York	2017-05-26
+3831661	Cashes Ledge	Cashes Ledge	Cash Ledge,Cashe Ledge	42.91328	-68.9538	U	RDGU	US						0		-9999		2019-02-11
+3831676	Ammen Rock	Ammen Rock		42.89129	-68.94357	U	RFU	US						0		-9999		2019-02-11
+3981608	Tijuana River	Tijuana River	Rio Tiajuana,Rio Tijuana,Río Tijuana,Tia Juana River,Tijuana River	32.55668	-117.12865	H	STM	US		CA	073			0		4	America/Los_Angeles	2020-03-02
+4020151	Southern California Borderland	Southern California Borderland		32.5	-118.5	U	BDLU	US		CA				0		-9999	America/Cambridge_Bay	2016-02-08
+4020231	Osborn Bank	Osborn Bank		33.36548	-119.04877	U	KNLU	US		CA				0		-9999	America/Los_Angeles	2023-11-08
+4020248	Monterey Canyon	Monterey Canyon	Kan'on Monterej,Kan'on Monterey,Kan’on Monterey,Monterey Deep-Sea Channel,Monterey Gorge,Monterey Seavalley,Monterey Submarine Canyon,Monterey Trough,Каньон Монтерей	36.66667	-122.08333	U	CNYU	US		CA				0		-9999	America/Cambridge_Bay	2014-02-20
+4030396	Heceta Bank	Heceta Bank		44.12062	-124.8761	U	BNKU	US		OR				0		-9999		2016-11-18
+4031854	Prince of Wales Shoal	Prince of Wales Shoal		65.87812	-167.94819	U	SHLU	US		AK	180			0		-9999		2019-02-11
+4031857	Portlock Bank	Portlock Bank	Banka Portlok,Банка Портлок	58.33333	-150.5	U	BNKU	US		AK				0		-9999	America/Dawson	2017-07-07
+4031961	Bogoslof Canyon	Bogoslof Canyon		53.91667	-167.8	U	CNYU	US		AK	016			0		-9999	America/Dawson	2014-07-22
+4045408	Chitka Cove	Chitka Cove	Alax Hatax,Chitka Cove	51.59611	178.93972	H	BAY	US		AK	016			0		-9999	America/Adak	2014-10-08
+4045409	West Arm	West Arm		52.79404	172.81631	H	BAY	US		AK	016			0		1	America/Adak	2013-10-26
+4045410	Vulcan Point	Vulcan Point	Volcan Point,Vulcan Point	52.10222	177.53889	T	CAPE	US		AK	016			0		-9999	America/Adak	2014-10-08
+4045411	Tropical Ridge	Tropical Ridge		51.99167	177.50833	T	RDGE	US		AK	016			0		267	America/Adak	2010-01-30
+4045412	Thirty-Seven Hill	Thirty-Seven Hill		52.84528	173.15278	T	MT	US		AK	016			0		193	America/Adak	2014-10-08
+4045413	Temnac Bay	Temnac Bay	Temnac Bay,Temnac Cove,Temnag Bay,Ubiennoi Bay,Uchtumuch Bay,Yubae Wan,Yubee Wan	52.81028	173.04472	H	BAY	US		AK	016			0		-9999	America/Adak	2013-11-20
+4045414	Tanadak Pass	Tanadak Pass		51.94776	177.74523	H	CHN	US		AK	016			0		-9999	America/Adak	2017-01-09
+4045415	Square Point	Square Point		52.8612	173.33679	T	CAPE	US		AK	016			0		30	America/Adak	2014-11-17
+4045416	Square Bluff	Square Bluff		51.65	178.7	T	CLF	US		AK	016			0		-9999	America/Adak	2014-10-08
+4045417	Southwest Indent	Southwest Indent		51.9125	179.5	H	BAY	US		AK	016			0		-9999	America/Adak	2010-01-30
+4045418	Southeast Point	Southeast Point		51.92222	179.72778	T	CAPE	US		AK	016			0		170	America/Adak	2010-01-30
+4045419	Sonom Beach	Sonom Beach	Sonom Beach,Sonoma Beach	52.79768	173.10434	T	BCH	US		AK	016			0		1	America/Adak	2014-11-17
+4045420	Smith Beach	Smith Beach		52.97557	172.91133	T	BCH	US		AK	016			0		-9999	America/Adak	2014-11-17
+4045421	Silver Salmon Lake	Silver Salmon Lake	Pistol Lake,Silver Salmon Lake	51.42278	179.21861	H	LK	US		AK	016			0		2	America/Adak	2010-01-30
+4045422	Siddens Valley	Siddens Valley		52.88191	173.21771	T	VAL	US		AK	016			0		2	America/Adak	2010-01-30
+4045423	Sarana Bay	Sarana Bay	Sarana Bay,Saranna Bay,Sarannaia Bay	52.873	173.29711	H	BAY	US		AK	016			0		-9999	America/Adak	2023-09-27
+4045424	Salt Creek	Salt Creek		52.09306	177.67222	H	STM	US		AK	016			0		1	America/Adak	2010-01-30
+4045425	Russian Ridge	Russian Ridge		51.975	177.37083	T	RDGE	US		AK	016			0		91	America/Adak	2010-01-30
+4045426	Rucksock Creek	Rucksock Creek		52.84	173.12917	H	STM	US		AK	016			0		55	America/Adak	2014-10-08
+4045427	Ring Lake	Ring Lake		52.04667	177.61111	H	LK	US		AK	016			0		36	America/Adak	2010-01-30
+4045428	Rim Point	Rim Point		51.59722	178.70278	T	CAPE	US		AK	016			0		27	America/Adak	2014-10-08
+4045429	Rex Hill	Rex Hill		52.02083	177.53889	T	MT	US		AK	016			0		291	America/Adak	2010-01-30
+4045430	Red Bluff	Red Bluff		52.08083	177.66472	T	CLF	US		AK	016			0		191	America/Adak	2014-10-08
+4045431	Point Poker	Point Poker		52.90409	173.30315	T	CAPE	US		AK	016			0		6	America/Adak	2014-11-17
+4045432	Pochnoi Point	Pochnoi Point		51.96151	179.77313	T	CAPE	US		AK	016			0		10	America/Adak	2021-04-14
+4045433	Petrel Point	Petrel Point		51.49333	179.09167	T	CAPE	US		AK	016			0		-9999	America/Adak	2014-10-08
+4045434	Peregrine Point	Peregrine Point		51.57556	178.98611	T	CAPE	US		AK	016			0		12	America/Adak	2014-10-08
+4045435	Omega Point	Omega Point		51.35889	179.39361	T	CAPE	US		AK	016			0		13	America/Adak	2014-10-08
+4045436	Nugget Hill	Nugget Hill		51.97306	177.64	T	MT	US		AK	016			0		2	America/Adak	2010-01-30
+4045437	North-northwest Bight	North-northwest Bight		52.025	179.59722	H	BAY	US		AK	016			0		-9999	America/Adak	2010-01-30
+4045438	North Ridge	North Ridge		52.90417	173.29583	T	RDGE	US		AK	016			0		69	America/Adak	2010-01-30
+4045439	Nazi Creek	Nazi Creek		51.94778	177.67222	H	STM	US		AK	016			0		64	America/Adak	2010-01-30
+4045440	Navy Cove	Navy Cove		52.84026	173.20169	H	BAY	US		AK	016			0		1	America/Adak	2014-11-17
+4045441	Moron Lake	Moron Lake		52.00472	177.5075	H	LK	US		AK	016			0		50	America/Adak	2010-01-30
+4045442	Monument Hill	Monument Hill		51.99222	177.5075	T	MT	US		AK	016			0		260	America/Adak	2010-01-30
+4045443	Milton Creek	Milton Creek		51.98611	177.57389	H	STM	US		AK	016			0		14	America/Adak	2010-01-30
+4045444	Mike Hill	Mike Hill		51.94167	177.50417	T	MT	US		AK	016			0		72	America/Adak	2010-01-30
+4045445	Midden Point	Midden Point		51.63389	178.76806	T	CAPE	US		AK	016			0		1	America/Adak	2014-10-08
+4045446	Midden Cove	Midden Cove	Midden Cove,Unanas Tatuu	51.63	178.78111	H	BAY	US		AK	016			0		1	America/Adak	2010-01-30
+4045447	Matthews Mountain	Matthews Mountain		52.84583	173.32528	T	MT	US		AK	016			0		458	America/Adak	2014-10-08
+4045448	Massacre Bay	Massacre Bay	Gavan Ubiennaya,Gavan Ubiennykh,Gavan Ubiyennaya,Gavan Ubiyennykh,Massacre Bay,Massacre Harbor,Oubiennaia Bay,Subienna Bay,Ubiennoi Bay,Ubiyenna Bay,Ubiyenna Harbor	52.82248	173.22796	H	BAY	US		AK	016			0		-9999	America/Adak	2014-11-18
+4045449	Maniac Hill	Maniac Hill		51.95833	177.50972	T	MT	US		AK	016			0		201	America/Adak	2010-01-30
+4045450	Mangy Hill	Mangy Hill	Mangy Hill	52.0075	177.52028	T	MT	US		AK	016			0		173	America/Adak	2010-01-30
+4045451	Lunatic Lake	Lunatic Lake		51.94028	177.47083	H	LK	US		AK	016			0		18	America/Adak	2010-01-30
+4045452	Lug Point	Lug Point	Lug Point,Walrus Point	51.93389	177.48222	T	CAPE	US		AK	016			0		94	America/Adak	2010-01-30
+4045453	Lousy Hill	Lousy Hill		51.95917	177.47278	T	MT	US		AK	016			0		324	America/Adak	2010-01-30
+4045454	Loot Hill	Loot Hill		51.94528	177.49833	T	MT	US		AK	016			0		94	America/Adak	2010-01-30
+4045455	Lick Creek	Lick Creek	Collins Creek,Gin Brook,Lick Creek	51.94	177.45778	H	STM	US		AK	016			0		23	America/Adak	2010-01-30
+4045456	Leper Lake	Leper Lake		51.94028	177.43333	H	LK	US		AK	016			0		42	America/Adak	2010-01-30
+4045457	Lean Hill	Lean Hill		51.94778	177.41194	T	MT	US		AK	016			0		159	America/Adak	2010-01-30
+4045458	Leaky Lake	Leaky Lake		51.93611	177.38194	H	LK	US		AK	016			0		177	America/Adak	2010-01-30
+4045459	Lass Lake	Lass Lake		51.98111	177.48583	H	LK	US		AK	016			0		44	America/Adak	2010-01-30
+4045460	Lard Hill	Lard Hill		51.96111	177.375	T	MT	US		AK	016			0		356	America/Adak	2010-01-30
+4045461	Lance Hill	Lance Hill		51.97056	177.48889	T	MT	US		AK	016			0		209	America/Adak	2010-01-30
+4045462	Knob Hill	Knob Hill	Knob Hill,Siberia Hill	51.94583	177.34389	T	MT	US		AK	016			0		218	America/Adak	2010-01-30
+4045463	Khvostof Pass	Khvostof Pass	Khvostof Pass,Kvostov Pass	51.99028	178.23222	H	CHN	US		AK	016			0		-9999	America/Adak	2010-01-30
+4045464	Khlebnikof Point	Khlebnikof Point	Cape Chlebnikoff,Cape Khlebnikof,Cape Khlebnikoff,Cape Khliebnikoff,Khlebnikof Point,Mys Khlbnikova	52.92458	173.29894	T	CAPE	US		AK	016			0		35	America/Adak	2015-10-12
+4045465	Kennon Island	Kennon Island		52.9384	173.25572	T	ISL	US		AK	016			0		9	America/Adak	2014-11-17
+4045466	Karab Cove	Karab Cove		52.39417	173.60833	H	BAY	US		AK	016			0		1	America/Nome	2010-01-30
+4045467	Jarmin Pass	Jarmin Pass		52.88889	173.12917	T	GAP	US		AK	016			0		248	America/Adak	2010-01-30
+4045468	Howard Hill	Howard Hill		51.92972	177.59056	T	MT	US		AK	016			0		48	America/Adak	2010-01-30
+4045469	Hoosier Hill	Hoosier Hill		51.92778	177.54306	T	MT	US		AK	016			0		80	America/Adak	2010-01-30
+4045470	Holtz Bay	Holtz Bay	Bukhta Goltsovaya,Goltseb Bay,Goltsovaia Bay,Goltzeb Bay,Goltzef Bay,Gotzeb Bay,Holtz Bay	52.94722	173.19194	H	BAY	US		AK	016			0		-9999	America/Adak	2014-10-08
+4045471	Goose Hill	Goose Hill		51.92583	177.45556	T	MT	US		AK	016			0		42	America/Adak	2010-01-30
+4045472	Good Creek	Good Creek		51.92306	177.37083	H	STM	US		AK	016			0		38	America/Adak	2010-01-30
+4045473	Gland Hill	Gland Hill		51.92917	177.46667	T	MT	US		AK	016			0		13	America/Adak	2010-01-30
+4045474	Gaudy Lake	Gaudy Lake		51.92833	177.45194	H	LK	US		AK	016			0		20	America/Adak	2010-01-30
+4045475	Fur Mountain	Fur Mountain		51.92222	177.34778	T	MT	US		AK	016			0		114	America/Adak	2010-01-30
+4045476	Fruit Hill	Fruit Hill		51.91889	177.35917	T	MT	US		AK	016			0		109	America/Adak	2010-01-30
+4045477	Fox Hill	Fox Hill		51.92639	177.31528	T	MT	US		AK	016			0		147	America/Adak	2010-01-30
+4045478	Fox Beach	Fox Beach		52.70944	174.15056	T	BCH	US		AK	016			0		31	America/Adak	2014-10-08
+4045479	Fin Creek	Fin Creek		51.87583	177.23611	H	STM	US		AK	016			0		45	America/Adak	2010-01-30
+4045480	Fawn Hill	Fawn Hill		51.875	177.25417	T	MT	US		AK	016			0		142	America/Adak	2010-01-30
+4045481	Far Hill	Far Hill		51.90278	177.27222	T	MT	US		AK	016			0		204	America/Adak	2010-01-30
+4045482	Fan Mountain	Fan Mountain		51.91528	177.27222	T	MT	US		AK	016			0		198	America/Adak	2010-01-30
+4045483	Ethel Cove	Ethel Cove		51.93611	177.43333	H	BAY	US		AK	016			0		15	America/Adak	2010-01-30
+4045484	Elwood Lake	Elwood Lake	Elwood Lake,Lake Elwood	52.8625	173.17778	H	LK	US		AK	016			0		9	America/Adak	2014-10-08
+4045485	East Point	East Point	East Point,East-northeast Point	51.96806	178.57083	T	CAPE	US		AK	016			0		-9999	America/Adak	2011-12-12
+4045486	East Massacre Valley	East Massacre Valley		52.85972	173.20833	T	VAL	US		AK	016			0		8	America/Adak	2010-01-30
+4045487	Diehm Creek	Diehm Creek		52.91329	173.97818	H	STM	US		AK	016			0		-9999		2010-01-30
+4045488	Dark Cove	Dark Cove	Dark Cove,Winter Cove	51.8775	177.22056	H	BAY	US		AK	016			0		1	America/Adak	2010-01-30
+4045489	Crater Bay	Crater Bay		51.97333	178.31778	H	BAY	US		AK	016			0		-9999	America/Adak	2010-01-30
