@@ -21,7 +21,7 @@
    ▼
 4. Find fuel stations near route
    │
-   │  PostGIS / spatial index / KD-tree
+   │  KD-tree
    ▼
 5. Candidate stations
    │
@@ -102,35 +102,4 @@ Is there a cheaper station ahead?
  update fuel/position/current_price
        │
        └──────► repeat
-```
-
-```
-START
-  │  position = 0, fuel = 500, current_price = ∞
-  ▼
-Find stations near route → compute mile markers → sort
-Add destination (price 0, mile = total_dist)
-  │
-  ▼
-┌─► Stations within (position, position + 500]?
-│     NONE ──► ERROR
-│     ▼
-│   Any station in range with price < current_price?
-│     │
-│     ├── YES: target = FIRST cheaper (route order)
-│     │        buy = max(0, distance_to_target − fuel)
-│     │
-│     └── NO:  target = CHEAPEST in range (earliest if tied)
-│              buy = 500 − fuel   (fill the tank)
-│     ▼
-│   Pay: cost += (buy / 10) × current_price
-│   Drive: fuel = fuel + buy − distance_to_target
-│          position = target.mile
-│          current_price = target.price
-│     ▼
-│   Target is destination?
-│     NO ──► loop back
-└─────┘
-     YES ──► return stops, total cost
-
 ```

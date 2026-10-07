@@ -11,7 +11,8 @@ ROUTE_SAMPLE_STEP_MILES = 0.25
 
 
 def _to_xyz(lat_deg, lon_deg) -> np.ndarray:
-    """lat/lon (degrees) -> 3D coordinates in miles on a sphere. Shape (N, 3)."""
+    """lat/lon (degrees) -> 3D coordinates in miles on a sphere. Shape (N, 3).
+    Convert lat/lon to xyz cordinates"""
     lat = np.radians(np.asarray(lat_deg, dtype=float))
     lon = np.radians(np.asarray(lon_deg, dtype=float))
     c = np.cos(lat)
@@ -21,7 +22,9 @@ def _to_xyz(lat_deg, lon_deg) -> np.ndarray:
 
 
 def _cumulative_miles(points: np.ndarray) -> np.ndarray:
-    """Haversine cumulative distance along the route. points: (N, 2) [lat, lon]."""
+    """Haversine cumulative distance along the route. points: (N, 2) [lat, lon].
+    Given two latitude/longitude coordinates, calculate the distance between them on Earth's surface.
+    """
     lat = np.radians(points[:, 0])
     lon = np.radians(points[:, 1])
     dlat, dlon = np.diff(lat), np.diff(lon)
@@ -44,7 +47,9 @@ def _resample_route(points, cum, step_miles):
 
 
 def _bbox_candidates(points: np.ndarray, radius_miles: float):
-    """Cheap DB prefilter: route bounding box padded by radius."""
+    """Cheap DB prefilter: route bounding box padded by radius.
+    Get the stations that are possibly close(default=10 miles) to the routes
+    """
     lat_pad = math.degrees(radius_miles / EARTH_RADIUS_MILES)
     max_abs_lat = min(89.0, float(np.max(np.abs(points[:, 0]))) + 1.0)
     lon_pad = lat_pad / math.cos(math.radians(max_abs_lat))
@@ -69,22 +74,28 @@ def stations_near_route(
                 "mile_marker": float}
     """
     points = np.asarray(geometry, dtype=float)
+    # to calculate distance, we need atleast two points
     if len(points) < 2:
         return []
 
+    # get the distance between points with summation
     cum = _cumulative_miles(points)
     if cum[-1] <= 0:
         return []
-    # Rescale so the last point equals the router's reported distance.
+
+    # making sure api routing miles and our calculated miles are same by rescaling
     if route_distance_miles:
         cum = cum * (route_distance_miles / cum[-1])
 
+    # Get the close fuel stations only
     candidates = list(_bbox_candidates(points, radius_miles))
     if not candidates:
         return []
 
-    # KD-tree over densified route points
+    # resampling here to reduces KD-tree queries and making those queries evenly distributed.
     sampled, sample_markers = _resample_route(points, cum, ROUTE_SAMPLE_STEP_MILES)
+
+    # create KD tree for searching
     tree = cKDTree(_to_xyz(sampled[:, 0], sampled[:, 1]))
 
     station_xyz = _to_xyz(
@@ -92,7 +103,7 @@ def stations_near_route(
         [s.lon for s in candidates],
     )
 
-    # Nearest route point per station; stations beyond the radius come back as inf.
+    # Nearest route point per 1 station; stations beyond the radius come back as inf
     dist, idx = tree.query(station_xyz, k=1, distance_upper_bound=radius_miles)
 
     results = [

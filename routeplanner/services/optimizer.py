@@ -4,7 +4,7 @@ from routeplanner.exceptions import NoFeasiblePlan
 
 MAX_RANGE_MILES = 500.0
 MPG = 10.0
-EPS = 1e-9
+EPS = 1e-9  # to avoid tiny floating point rounding errors during operation
 
 
 @dataclass
@@ -28,23 +28,28 @@ def plan_fuel_stops(
     """
     fuel = max_range if start_fuel_miles is None else start_fuel_miles
 
+    # Only create a node if the station's mile marker is within the actual route
     nodes = [
         _Node(n["mile_marker"], float(n["station"].price), n)
         for n in nearby
         if 0 <= n["mile_marker"] < total_miles
     ]
     nodes.sort(key=lambda n: n.marker)
-    nodes.append(_Node(total_miles, 0.0, None))  # destination
+    nodes.append(
+        _Node(total_miles, 0.0, None)
+    )  # destination(we don't buy fuel at destination so it's 0)
     last = len(nodes) - 1
 
     cur_pos, cur_node, k = 0.0, None, 0
     stops, total_cost, total_gallons = [], 0.0, 0.0
 
     while True:
-        # How far we could possibly get from here.
+        # How far we could possibly get from this point
         reach = max_range if cur_node else fuel
         window = []
         j = k
+
+        # Get all the reachable stations from one point
         while j <= last and nodes[j].marker - cur_pos <= reach + EPS:
             window.append(j)
             j += 1
@@ -55,18 +60,22 @@ def plan_fuel_stops(
 
         buy_miles = 0.0
         if cur_node is None:
-            # At the start: nothing to buy, just head for the destination
-            # or the cheapest station reachable on the starting fuel.
+            # At the start: nothing to buy, just head for the destination directly or get the cheapest station reachable on the current fuel
             target = (
                 last
                 if last in window
                 else min(window, key=lambda i: (nodes[i].price, nodes[i].marker))
             )
         else:
+            # get the cheaper point where the fuel price is cheaper than here
             cheaper = next((i for i in window if nodes[i].price < cur_node.price), None)
+
+            # If a cheaper point is reachable, buy the minimum here, because you'll get cheaper fuel there
             if cheaper is not None:
                 target = cheaper
                 buy_miles = max(0.0, nodes[target].marker - cur_pos - fuel)
+
+            # If not, buy the maximum here, because this is the cheapest fuel you'll see for a full tank
             else:
                 target = min(window, key=lambda i: (nodes[i].price, nodes[i].marker))
                 buy_miles = max_range - fuel  # fill up
