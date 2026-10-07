@@ -21,6 +21,10 @@ class RoutingError(Exception):
     pass
 
 
+class NoFeasiblePlan(Exception):
+    pass
+
+
 class NoStationInRange(APIException):
     status_code = 422
     default_detail = "No fuel station within range along this route."
