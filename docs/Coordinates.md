@@ -29,8 +29,6 @@ Addresses in the CSV are highway exits (e.g. `I-44, EXIT 283 & US-69`), which st
 ## Run order
 
 ```powershell
-pip install pandas
-
 python .\add_cords.py            # pass 1: SimpleMaps join, writes fuel_prices_with_coords.csv
 python .\add_coords_pass2.py     # pass 2: drops Canada, fills from GeoNames (needs US.txt)
 python .\add_coords_pass3.py     # pass 3: manual overrides for the last 18 cities
